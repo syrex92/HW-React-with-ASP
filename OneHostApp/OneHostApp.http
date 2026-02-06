@@ -1,0 +1,6 @@
+@OneHostApp_HostAddress = http://localhost:5124
+
+GET {{OneHostApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
