@@ -1,0 +1,8 @@
+TwoHostsApp/back/bin
+TwoHostsApp/back/obj
+TwoHostsApp/front/node_modules
+TwoHostsApp/front/dist
+OneHostApp/bin
+OneHostApp/obj
+OneHostApp/ClientApp/node_modules
+OneHostApp/ClientApp/build
