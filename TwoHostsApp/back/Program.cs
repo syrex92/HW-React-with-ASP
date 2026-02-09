@@ -9,7 +9,7 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder =>
     {
-        builder.WithOrigins("http://localhost:5173")
+        builder.WithOrigins("https://otus-hw-front.syrex.ru.net")
                .AllowAnyHeader()
                .AllowAnyMethod();
     });
@@ -25,7 +25,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors();
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
