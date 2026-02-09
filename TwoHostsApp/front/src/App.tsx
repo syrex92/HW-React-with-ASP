@@ -10,7 +10,7 @@ function App() {
 
   async function getWeather()
   {
-    const response = await fetch('https://otus-hw-back.syrex.ru.net/WeatherForecast/');
+    const response = await fetch('http://localhost:5000/WeatherForecast/');
     const data = await response.json();
     setDate(data[0].date);
     setTemp(data[0].temperatureC);

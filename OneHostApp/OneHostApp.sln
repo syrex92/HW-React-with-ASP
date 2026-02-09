@@ -1,8 +1,10 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneHostApp", "OneHostApp.csproj", "{969FA794-E24C-CA89-E163-57C5606B6629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "back", "..\TwoHostsApp\back\back.csproj", "{B82BBB6C-6E09-4183-AC13-778B7E424E6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,6 +16,10 @@ Global
 		{969FA794-E24C-CA89-E163-57C5606B6629}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{969FA794-E24C-CA89-E163-57C5606B6629}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{969FA794-E24C-CA89-E163-57C5606B6629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82BBB6C-6E09-4183-AC13-778B7E424E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82BBB6C-6E09-4183-AC13-778B7E424E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82BBB6C-6E09-4183-AC13-778B7E424E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82BBB6C-6E09-4183-AC13-778B7E424E6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
